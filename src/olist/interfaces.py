@@ -130,6 +130,13 @@ def componentes():
     border-right: 6px solid #1f77b4;
     }
                 
+    .footer {
+        text-align: center;
+        color: #666;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        line-height: 1.8;
+    }   
     </style>
     """, unsafe_allow_html=True)
 
@@ -581,21 +588,19 @@ def slide_recomendacoes():
     """, unsafe_allow_html=True)
 
 def slide_sobre_projeto():
-    st.markdown("---")
-
     st.markdown("""
-    ### Sobre o projeto
+    <div class='footer'>
 
-    Projeto de Ciência de Dados utilizando o dataset público da Olist.
+    <hr>
 
-    Tecnologias utilizadas:
-    - Python
-    - Pandas
-    - Scikit-learn
-    - Seaborn
-    - Matplotlib
-    - Streamlit
+    <b>Lucas Morais Torres</b><br>
 
-    Autor: **Lucas Morais Torres**\n
-    Código Fonte e + análises do negócio: https://github.com/lucasmoraistorres/olist_ecommerce_portfolio
-    """)
+    Data Science Portfolio Project
+
+    <br><br>
+
+    GitHub:<br>
+    https://github.com/lucasmoraistorres/olist_ecommerce_portfolio
+
+    </div>
+    """, unsafe_allow_html=True)

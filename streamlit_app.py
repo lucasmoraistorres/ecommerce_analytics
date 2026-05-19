@@ -104,3 +104,6 @@ with tab2:
     slide_sobre_projeto()
     st.markdown("<div class='section-space'></div>", unsafe_allow_html=True)
 
+with tab3:
+    VIDEO_URL = "https://youtu.be/PrGcsSp3oB8"
+    st.video(VIDEO_URL)
